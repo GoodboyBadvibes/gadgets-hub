@@ -19,14 +19,26 @@ export function HeroSection() {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
+ 
+<a
+  href="#categories"
+>
+               <Button size="lg" className="bg-primary hover:bg-primary/90 text-lg px-8">
                 Explore Products
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 bg-transparent">
-                <MessageCircle className="mr-2 h-5 w-5" />
-                Chat on WhatsApp
-              </Button>
+  </a>
+<a
+  href="https://wa.me/2349162130958?text=Hello!%20I'm%20interested%20in%20your%20services."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <Button size="lg" variant="whatsApp" className="text-lg px-8  ">
+    <MessageCircle className="mr-2 h-5 w-5 " />
+    Chat on WhatsApp
+  </Button>
+</a>
+
             </div>
 
             <div className="flex items-center space-x-8 pt-4">

@@ -30,9 +30,11 @@ Phone: ${formData.phone}
 Product Interest: ${formData.product}
 Message: ${formData.message}`
 
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`
+    const whatsappUrl = `https://wa.me/2349162130958?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
+
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData((prev) => ({
@@ -183,7 +185,7 @@ Message: ${formData.message}`
                   />
                 </div>
 
-                <Button type="submit" className="w-full bg-secondary hover:bg-secondary/90">
+                <Button variant="whatsApp" type="submit" className="w-full ">
                   <Send className="mr-2 h-4 w-4" />
                   Send WhatsApp Message
                 </Button>

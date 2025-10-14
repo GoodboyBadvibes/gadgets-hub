@@ -30,10 +30,17 @@ export function Navbar() {
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">
               Contact
             </a>
-            <Button className="bg-secondary hover:bg-secondary/90">
+
+            <a
+  href="https://wa.me/2349162130958?text=Hello!%20I'm%20interested%20in%20your%20services."
+  target="_blank"
+  rel="noopener noreferrer"
+>
+            <Button variant="whatsApp" className="">
               <MessageCircle className="h-4 w-4 mr-2" />
               WhatsApp
             </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
