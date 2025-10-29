@@ -68,7 +68,7 @@ Message: ${formData.message}`
                   </div>
                   <div>
                     <p className="font-medium">WhatsApp</p>
-                    <p className="text-muted-foreground">+1 (234) 567-8900</p>
+                    <p className="text-muted-foreground">(+234) 916-2130-958</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -77,7 +77,7 @@ Message: ${formData.message}`
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-muted-foreground">+1 (234) 567-8900</p>
+                    <p className="text-muted-foreground">(+234) 916-2130-958</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -86,7 +86,7 @@ Message: ${formData.message}`
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">hello@gadgetshub.com</p>
+                    <p className="text-muted-foreground">@gadgetshub@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -95,7 +95,7 @@ Message: ${formData.message}`
                   </div>
                   <div>
                     <p className="font-medium">Location</p>
-                    <p className="text-muted-foreground">Tech District, Digital City</p>
+                    <p className="text-muted-foreground">📍 20 Freedom Way, Lekki Lagos.</p>
                   </div>
                 </div>
               </div>
