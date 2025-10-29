@@ -67,35 +67,35 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Support</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li>
-                <a href="#" className="hover:text-secondary transition-colors">
+                <a href="#contact" className="hover:text-secondary transition-colors">
                   Contact Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-secondary transition-colors">
+                <a href="#contact" className="hover:text-secondary transition-colors">
                   WhatsApp Support
                 </a>
-              </li>
-              <li>
+               </li>
+             {/* <li>
                 <a href="#" className="hover:text-secondary transition-colors">
                   Warranty Info
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a href="#" className="hover:text-secondary transition-colors">
                   Returns & Exchanges
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="#" className="hover:text-secondary transition-colors">
+                <a href="#contact" className="hover:text-secondary transition-colors">
                   Bulk Orders
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="#" className="hover:text-secondary transition-colors">
                   FAQ
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -103,18 +103,18 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2 text-sm text-primary-foreground/80">
-              <li>📱 +1 (234) 567-8900</li>
-              <li>📧 hello@gadgetshub.com</li>
-              <li>📍 Tech District, Digital City</li>
+              <li>📱  (+234) 916-2130-958</li>
+              <li>📧 @gadgetshub@gmail.com</li>
+              <li>📍 20 Freedom Way, Lekki Lagos.</li>
               <li>🕒 Mon-Sat: 9AM-8PM</li>
               <li>🕒 Sunday: 10AM-6PM</li>
             </ul>
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 mt-8 pt-8 text-center">
+        <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center">
           <p className="text-sm text-primary-foreground/60">
-            © 2024 Gadgets Hub. All rights reserved. | Privacy Policy | Terms of Service
+            © 2025 Gadgets Hub. All rights reserved. | Privacy Policy | Terms of Service
           </p>
         </div>
       </div>
